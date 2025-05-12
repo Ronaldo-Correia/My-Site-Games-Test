@@ -1,0 +1,30 @@
+/* Tema Claro (padrão) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s; /* Animação suave ao trocar os ícones */
+}
+
+button img:hover {
+    transform: scale(1.2); /* Aumenta levemente o ícone ao passar o mouse */
+}
+
+/* Tema Escuro */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
